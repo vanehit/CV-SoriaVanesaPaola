@@ -1,0 +1,87 @@
+@page {
+    size: A4;
+    margin: 20mm;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#doc2 {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto;
+    padding: 20mm;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+#hd {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+#hd h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+#hd h2 {
+    font-size: 24px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left, .header-right {
+    flex: 1;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+}
+
+#bd {
+    margin-top: 30px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+button#download-pdf {
+    background-color: #408814;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px; /* Espacio entre cada enlace */
+}
+
+.social-links a {
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    color: #408814; /* Color verde para los enlaces (puedes cambiarlo) */
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el mouse */
+}
